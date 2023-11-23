@@ -1,0 +1,283 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+    
+}
+.header p{color: rgb(246, 255, 0);
+
+}
+.slider-img img{
+    height: 600px;
+    width: 100%;
+}
+.text-h1{
+    font-size: 66px;
+    color: black;
+}
+.text-h2{
+    font-size: 66px;
+    color: rgb(255, 217, 0);
+}
+.but-1{
+    padding: 11px;
+    width: 22%;
+    margin: 11px;
+    border-style: none;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+.but-1:hover{
+    padding: 11px;
+    width: 22%;
+    margin: 11px;
+    background:none;
+    color: rgb(255, 255, 255);
+}
+.but-2{
+    padding: 11px;
+    width: 22%;
+    margin: 11px;
+    border-style: none;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+}
+.but-2:hover{
+    padding: 11px;
+    width: 22%;
+    margin: 11px;
+    background:none;
+    color: rgb(238, 255, 0);
+}
+
+.com2{
+    display: flex;
+    margin: 77px;
+}
+.com2-text{
+    border: 1px solid wheat;
+    margin-left: -76px;
+    padding: 28px;
+    background-color: white;
+    color: black;
+    margin-top: 99px;
+    height: 277px;
+    width: 50%;
+    
+}
+.com2-text:hover{
+    border: 1px solid wheat;
+    margin-left: -76px;
+    padding: 28px;
+    background-color: white;
+    color: black;
+    margin-top: 99px;
+    height: 277px;
+    width: 50%;
+    box-shadow: 0px 2px 12px 4px;
+    
+}
+.com2-text h1{
+    font-family: system-ui;
+    margin-bottom: 10px;
+}
+.com2-text p{
+    font-family: revert;
+    margin-bottom: 20px;
+}
+.com2-text button{
+    border-style: none;
+    padding: 11px ;
+    width: 33%;
+    background-color: gold;
+    color: white;
+
+}
+.com2-text button:hover{
+
+    padding: 11px ;
+    width: 33%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(251, 255, 0);
+    border: 1px solid yellow;
+
+}
+.main-text{
+    display: flex;
+    justify-content:space-between ;
+    
+    
+}
+.com3-text{
+    text-align: center;
+    border: 1px solid wheat;
+    margin: 11px;
+    padding: 11px;
+    border-radius: 11px;
+
+}
+.com3-text:hover{
+    text-align: center;
+    border: 1px solid wheat;
+    margin: 11px;
+    padding: 11px;
+    border-radius: 11px;
+    box-shadow: 0px 2px 12px 4px;
+}
+.com3-text h1{
+    font-size: 70px;
+    color: blue;
+}
+.com3-text h2{
+    font-size: 70px;
+    color: red;
+
+}
+.com3-text h3{
+    font-size: 70px;
+    color: navy;
+}
+.com3-text button{
+    padding: 10px;
+    width: 48%;
+    border-radius: 11px;
+    background-color: yellow;
+    border-style: none;
+}
+.com3-text button:hover{
+    padding: 10px;
+    width: 48%;
+    border-radius: 11px;
+    background-color: rgb(16, 196, 0);
+    color: white;
+}
+.com4-main{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 33px;
+    
+}
+.com4-main input{
+    padding: 11px ;
+    width: 55%;
+}
+.com4-main h1{
+    margin-top: 11px;
+    margin-bottom: 50px;
+}
+.new input{
+    width: 55%;
+    height: 150px;
+}
+.com4-main button{
+    padding: 11px;
+    width: 22%;
+    border-style: none;
+    background-color: yellow;
+}
+.com4-main button:hover{
+    padding: 11px;
+    width: 22%;
+    border-style: none;
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+    color: white;
+    
+}
+.text{
+    text-align: center;
+    margin: 11px;
+    padding: 11px;
+}
+.img-3{
+    display: flex;
+}
+.img-3 img{
+    position: relative;
+    width: 100%;
+    padding: 11px;
+    margin: auto;
+}
+.img-3 h3{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 50px;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+}
+.but-3  button{
+    padding: 11px;
+    margin: 11px;
+    width: 20%;
+    margin-left: 530px;
+    margin-top: 80px;
+    border-style: none;
+    background-color: yellow;
+    margin-bottom: 80px;
+    border: 1px solid gold;
+}
+.but-3  button:hover{
+    padding: 11px;
+    margin: 11px;
+    width: 20%;
+    margin-left: 530px;
+    margin-top: 80px;
+    
+    color: rgb(255, 238, 0);
+    border: 1;
+    background:none;
+    border: 1px solid gold;
+    margin-bottom: 80px;
+}
+
+.main-flx{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+padding: 55px;
+    
+}
+.one-f{
+    width: 22%;
+}
+.two-f{
+    width: 22%;
+}
+.for s{
+    padding: 5px;
+    color: brown;
+}
+.for input{
+    padding: 7px;
+    border-style: none;
+
+}
+.for button{
+    padding: 7px;
+    width: 77%;
+    border-style: none;
+    background-color: yellow;
+    border-radius: 11px;
+
+}
+.for button:hover{
+    padding: 7px;
+    width: 77%;
+    border-radius: 11px;
+    border-style: none;
+    background-color: rgb(30, 255, 0);
+    color: white;
+
+}
